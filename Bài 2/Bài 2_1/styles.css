@@ -173,8 +173,8 @@
     width: min-content;
     height: min-content;
     background-color: #b1b1b1;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 4%;
     border-radius: 7px;
     box-sizing: border-box;
 }
@@ -220,10 +220,29 @@
     margin-top: 30px;
 }
 
-.second_link, .rights_st, .pix_inline_block {
+.rights_st, .pix_inline_block {
     margin-top: 30px;
 }
 
 .span_text {
     margin-top: 5%;
 }
+
+.second_link {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.get_2_btn {
+    display: flex;
+    text-align: center;
+    width: 240px;
+    height: min-content;
+    margin-top: 30px;
+    justify-content: center;
+    border: 2px solid #5d9668;
+    background-color: #fff;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+   
